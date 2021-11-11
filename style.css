@@ -1,0 +1,51 @@
+* {
+    background-image: url("./images/parede-de-concreto.jpg");
+    font-family: 'Comic Sans MS';
+    background-size: 100%;
+}
+
+.flex-container {
+    background-image: none;
+    max-width: auto;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    margin: 10px;
+}
+
+.firstbox {
+    max-width: auto;
+    background-image: none;
+    background-color: red;
+    margin: 10px;
+    border: 5px solid rgb(56, 24, 235);
+    justify-content: space-between;
+    border-style: outset;
+}
+
+.secondbox {
+    background-image: none;
+    max-width: 300px;
+    background-color: purple;
+    margin: 20px;
+    border: 2px solid black;
+    flex-direction: column;
+}
+
+.item {
+    background-image: none;
+    margin: 5px;
+}
+
+.subcaixa {
+    border: 2px solid black;
+    text-align: center;
+    background-image: none;
+    background-color: whitesmoke;
+}
+
+header {
+    border: 2px solid black;
+    justify-items: center;
+    text-align: center;
+}
